@@ -5,13 +5,23 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch file",
+            "name": "Launch file with example input",
             "type": "go",
             "request": "launch",
             "mode": "debug",
             "program": "${fileDirname}",
             "args": [
                 "${workspaceFolder}/data/${fileDirnameBasename}/example.txt"
+            ]
+        }, 
+        {
+            "name": "Launch file with puzzle input",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${fileDirname}",
+            "args": [
+                "${workspaceFolder}/data/${fileDirnameBasename}/input.txt"
             ]
         }
     ]
