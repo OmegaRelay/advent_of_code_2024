@@ -2,12 +2,12 @@
 // This word search allows words to be horizontal, vertical, diagonal, written
 // backwards, or even overlapping other words.
 //
-// Part 1: complete
-// Part 2: wip
-//
 // Solution: make a 2D slice where the top level value indicates row, and the
 // second level value indicates column. Then iterate through the rows and
 // columns, if x is found, check the surrounding for m then again for a and so forth
+//
+// Part 1: complete
+// Part 2: wip
 package main
 
 import (

@@ -1,5 +1,5 @@
-// Part A: Success
-// Part B: Fail
+// Part 1: complete
+// Part 2: wip
 package main
 
 import (

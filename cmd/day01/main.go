@@ -1,3 +1,5 @@
+// Part 1: complete
+// Part 2: complete
 package main
 
 import (
